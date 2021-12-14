@@ -71,7 +71,7 @@ function midPoint(){
 midPoint();
 
 // d) Yamuklar Yöntemi
-function yamuklarTeoremi(){
+function yamuklarYontemi(){
     let sum = 0;
     let head;
     let end;
@@ -84,7 +84,7 @@ function yamuklarTeoremi(){
 
     console.log(`Yamuklar Yöntemi: ${sum.toFixed(4)}`);
 }
-yamuklarTeoremi();
+yamuklarYontemi();
 
 // e) Simpson 1/3
 function simpsonOneThree(){
@@ -128,7 +128,7 @@ function simpsonThreeEight() {
 simpsonThreeEight();
 
 
-// g) Simpson 3/8
+// g) Weddle
 function weddle(){
     let h = (b - a) / 6;
     let sum = 0;
@@ -156,6 +156,6 @@ function booleYontemi(){
    
     sum += bl;
 
-    console.log(`Boole: ${sum.toFixed(42)}`);  
+    console.log(`Boole: ${sum.toFixed(4)}`);  
 }
 booleYontemi();
